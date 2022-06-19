@@ -1,19 +1,23 @@
 <template>
+<Layout>
  <Nav/>
 <h1>About</h1>
+</Layout>
+
+
 
 
   
 </template>
 
 <script>
-import {Link} from '@inertiajs/inertia-vue3';
-import Nav from '../Shared/Nav.vue'
+
+import Layout from '../Shared/Layout.vue'
 export default {
 props:{
 
 },
-components:{Link,Nav}
+components:{Layout}
 }
 </script>
 

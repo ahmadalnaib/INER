@@ -1,24 +1,23 @@
 <template>
+<Layout>
  <Nav/>
 <h1>Users</h1>
-<p>
-  {{time}}
-</p>
+</Layout>
+
+
+
 
   
 </template>
 
 <script>
-import {Link} from '@inertiajs/inertia-vue3';
-import Nav from '../Shared/Nav.vue'
+
+import Layout from '../Shared/Layout.vue'
 export default {
 props:{
 
 },
-components:{Link,Nav},
-props:{
-  time:String
-}
+components:{Layout}
 }
 </script>
 
