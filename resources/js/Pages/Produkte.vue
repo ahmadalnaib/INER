@@ -1,23 +1,13 @@
 <template>
-<Layout>
-
-<h1>About</h1>
-</Layout>
-
-
-
-
-  
+  <Layout/>
 </template>
 
 <script>
-
 import Layout from '../Shared/Layout.vue'
 export default {
-props:{
-
-},
-components:{Layout}
+components:{
+  Layout
+}
 }
 </script>
 

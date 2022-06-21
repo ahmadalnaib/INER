@@ -1,22 +1,26 @@
 <template>
-<section class="bg-light">
-<header class="d-flex justify-content-around align-items-center  ">
-  <h1>{{$page.props.namee}}</h1>
+<section class="">
+<header class="">
+
  <Nav/>
 </header>
 </section>
 
- <section class="container">
+ <section class="container ">
   <slot/>
  </section>
-
+<section class="mt-5">
+  <Footer/>
+</section>
 </template>
 
 <script>
 import Nav from '../Shared/Nav.vue'
+import Footer from '../Shared/Footer.vue'
 export default {
 components:{
-  Nav
+  Nav,
+  Footer
 }
 }
 </script>

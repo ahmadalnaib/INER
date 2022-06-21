@@ -1,6 +1,6 @@
 <template>
 <Layout>
- <Nav/>
+
 <h1>Users</h1>
 </Layout>
 

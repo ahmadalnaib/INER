@@ -19,13 +19,13 @@ Route::get('/', function () {
     return Inertia::render('Home');
 });
 
-Route::get('/users', function () {
-    return Inertia::render('Users',[
+Route::get('/Produkte', function () {
+    return Inertia::render('Produkte',[
         'time'=>now()->toTimeString()
     ]);
 });
 
-Route::get('/about', function () {
+Route::get('/About', function () {
     return Inertia::render('About');
 });
 
